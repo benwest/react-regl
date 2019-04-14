@@ -1,6 +1,8 @@
 {
   "name": "react-regl",
   "version": "3.0.0",
+  "author": "kevzettler",
+  "license": "MIT",
   "description": "A custom React Fiber reconciler renderer for regl webGL",
   "main": "dist/index.js",
   "files": [
@@ -22,8 +24,6 @@
     "scene",
     "graph"
   ],
-  "author": "kevzettler",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kevzettler/react-regl/issues"
   },
@@ -42,7 +42,6 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "babel-plugin-transform-remove-debugger": "^6.9.4",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.0",
     "react-reconciler": "^0.20.4",
@@ -52,30 +51,17 @@
     "react": "^16.8.6"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.4.10",
-    "@storybook/addon-knobs": "^3.4.10",
-    "@storybook/addon-links": "^3.4.10",
-    "@storybook/addon-options": "^3.4.10",
-    "@storybook/addon-storysource": "^3.4.10",
-    "@storybook/addons": "^3.4.10",
-    "@storybook/cli": "^3.4.10",
-    "@storybook/react": "^3.4.10",
     "arraybuffer-loader": "^1.0.6",
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-eslint": "^8.0.3",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "^6.26.0",
     "buffer": "^5.2.1",
     "bunny": "^1.0.1",
+    "eslint": "^5.16.0",
     "gl": "^4.0.4",
     "gl-context": "^0.1.1",
     "gl-matrix": "^2.7.1",
     "jest": "^22.4.3",
     "pngjs": "^3.3.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "webpack": "^4.30.0"
   }
 }
